@@ -5,13 +5,28 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>BBun_HoptimusPrime</defName>
     <label>hoptimus prime</label>
-    <description>TODO: Description</description>
+    <description>A bigger, stronger hoptimus. More docile than the hoptimus.</description>
     <statBases>
       <MoveSpeed>6.6</MoveSpeed>
       <MarketValue>350</MarketValue>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
     </statBases>
-	
+	 <!-- <colorGenerator Class="ColorGenerator_Options"> -->
+      <!-- <options> -->
+        <!-- <li> -->
+          <!-- <min>(0.46,0.33,0.29,1)</min> -->
+          <!-- <max>(0.19,0.19,0.19,1)</max> -->
+        <!-- </li> -->
+      <!-- </options> -->
+    <!-- </colorGenerator> -->
+	<comps>
+		<li Class="CompProperties_Milkable">
+			<milkDef>Milk</milkDef>
+			<milkIntervalDays>2</milkIntervalDays>
+			<milkAmount>26</milkAmount>
+		</li>
+	</comps>
+
 	<tools>
       <li>
         <label>left claw</label>
@@ -63,6 +78,7 @@
       <leatherDef>Leather_Heavy</leatherDef>
       <useMeatFrom>Hare</useMeatFrom>
       <trainability>Intermediate</trainability>
+      <packAnimal>true</packAnimal>
       <wildness>0.90</wildness>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
@@ -98,27 +114,17 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>BBun_HoptimusPrime</defName>
     <label>hoptimus prime</label>
-	<labelPlural>hoptimi primes</labelPlural>
     <race>BBun_HoptimusPrime</race>
     <combatPower>250</combatPower>
     <ecoSystemWeight>1.8</ecoSystemWeight>
     <alternateGraphicChance>0.5</alternateGraphicChance>
-    <alternateGraphics>
-	   <li>
-		  <weight>0.2</weight>
-	      <texPath>BBun/Animal/HoptimusPrime/HoptimusPrime</texPath>
-          <color>(206,184,153)</color>
-		  <colorTwo>(124,108,87)</colorTwo>
-      </li>
-    </alternateGraphics>
+   
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>BBun/Animal/HoptimusPrime/HoptimusPrime</texPath>
-          <color>(124,108,87)</color>
-		  <colorTwo>(206,184,153)</colorTwo>
+          <color>(115,82,71)</color>
           <drawSize>1.6</drawSize>
-          <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -132,10 +138,8 @@
       <li>
         <bodyGraphicData>
           <texPath>BBun/Animal/HoptimusPrime/HoptimusPrime</texPath>
-          <color>(124,108,87)</color>
-		  <colorTwo>(206,184,153)</colorTwo>
+          <color>(115,82,71)</color>
           <drawSize>2.4</drawSize>
-          <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -149,10 +153,8 @@
       <li>
         <bodyGraphicData>
           <texPath>BBun/Animal/HoptimusPrime/HoptimusPrime</texPath>
-          <color>(124,108,87)</color>
-		  <colorTwo>(206,184,153)</colorTwo>
+          <color>(115,82,71)</color>
           <drawSize>3.4</drawSize>
-          <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
