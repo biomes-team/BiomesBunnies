@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Realistic Planets - Fan Update</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<operations>
+			<!-- temperate-cold grasslands -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="RRP_Grassland"]/wildAnimals</xpath>
+					<value>
+						<BBun_ChocolateRabbit>0.07</BBun_ChocolateRabbit>
+						<BBun_DustBunny>0.8</BBun_DustBunny>
+						<BBun_Hoptimus>0.1</BBun_Hoptimus>
+						<BBun_HoptimusPrime>0.2</BBun_HoptimusPrime>
+					</value>
+				</li>
+				
+			<!-- warm-hot grasslands -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="RRP_Savanna"]/wildAnimals</xpath>
+					<value>
+						<BBun_DustBunny>0.2</BBun_DustBunny>
+						<BBun_Hoptimus>0.1</BBun_Hoptimus>
+					</value>
+				</li>
+				
+			<!-- cold grasslands -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="RRP_Steppes"]/wildAnimals</xpath>
+					<value>
+						<BBun_ChocolateRabbit>0.15</BBun_ChocolateRabbit>
+						<BBun_DustBunny>0.5</BBun_DustBunny>
+						<BBun_Hoptimus>0.1</BBun_Hoptimus>
+						<BBun_HoptimusPrime>0.2</BBun_HoptimusPrime>
+					</value>
+				</li>
+				
+			<!-- temperate-cold desert -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="RRP_TemperateDesert"]/wildAnimals</xpath>
+					<value>
+						<BBun_DustBunny>0.4</BBun_DustBunny>
+						<BBun_Hoptimus>0.1</BBun_Hoptimus>
+						<BBun_HoptimusPrime>0.15</BBun_HoptimusPrime>
+					</value>
+				</li>
+				
+			<!-- tundra -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="RRP_Permafrost"]/wildAnimals</xpath>
+					<value>
+						<BBun_Caerbunny>0.1</BBun_Caerbunny>
+						<BBun_DustBunny>0.6</BBun_DustBunny>
+						<BBun_HoptimusPrime>0.5</BBun_HoptimusPrime>
+					</value>
+				</li>
+				
+			<!-- sparse oasis -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="RRP_Oasis"]/wildAnimals</xpath>
+					<value>
+						<BBun_Hoptimus>0.3</BBun_Hoptimus>
+					</value>
+				</li>
+					
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>

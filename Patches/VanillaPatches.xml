@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--
+
+-->
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/JoyGiverDef[defName="EatChocolate"]/thingDefs</xpath>
+		<value>
+			<li>BBun_ChocolateEgg</li>
+		</value>
+	</Operation>
+	
+	<!--
+	BBun_Caerbunny
+	BBun_ChocolateRabbit
+	BBun_DustBunny
+	BBun_Hoptimus
+	BBun_HoptimusPrime
+	
+	-->
+	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+		<value>
+			<BBun_ChocolateRabbit>0.05</BBun_ChocolateRabbit>
+			<BBun_DustBunny>0.4</BBun_DustBunny>
+			<BBun_Hoptimus>0.2</BBun_Hoptimus>
+			<BBun_HoptimusPrime>0.05</BBun_HoptimusPrime>
+			
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+		<value>
+			<BBun_ChocolateRabbit>0.08</BBun_ChocolateRabbit>
+			<BBun_DustBunny>0.4</BBun_DustBunny>
+			<BBun_Hoptimus>0.15</BBun_Hoptimus>
+			<BBun_HoptimusPrime>0.1</BBun_HoptimusPrime>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+		<value>
+			<BBun_Hoptimus>0.3</BBun_Hoptimus>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+		<value>
+			<BBun_Hoptimus>0.1</BBun_Hoptimus>
+			<BBun_HoptimusPrime>0.01</BBun_HoptimusPrime>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+		<value>
+			<BBun_Hoptimus>0.1</BBun_Hoptimus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+		<value>
+			<BBun_Hoptimus>0.1</BBun_Hoptimus>
+			<BBun_HoptimusPrime>0.05</BBun_HoptimusPrime>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
+		<value>
+			<BBun_Hoptimus>0.2</BBun_Hoptimus>
+			<BBun_HoptimusPrime>0.2</BBun_HoptimusPrime>
+		</value>
+	</Operation>
+	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+		<value>
+			<BBun_ChocolateRabbit>0.15</BBun_ChocolateRabbit>
+			<BBun_DustBunny>0.6</BBun_DustBunny>
+			<BBun_Hoptimus>0.15</BBun_Hoptimus>
+			<BBun_HoptimusPrime>0.1</BBun_HoptimusPrime>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+		<value>
+			<BBun_ChocolateRabbit>0.07</BBun_ChocolateRabbit>
+			<BBun_DustBunny>0.8</BBun_DustBunny>
+			<BBun_Hoptimus>0.1</BBun_Hoptimus>
+			<BBun_HoptimusPrime>0.2</BBun_HoptimusPrime>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+		<value>
+			<BBun_ChocolateRabbit>0.05</BBun_ChocolateRabbit>
+			<BBun_DustBunny>0.4</BBun_DustBunny>
+			<BBun_Hoptimus>0.05</BBun_Hoptimus>
+			<BBun_HoptimusPrime>0.3</BBun_HoptimusPrime>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+		<value>
+			<BBun_Caerbunny>0.1</BBun_Caerbunny>
+			<BBun_DustBunny>0.6</BBun_DustBunny>
+			<BBun_HoptimusPrime>0.5</BBun_HoptimusPrime>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
+		<value>
+			<BBun_Caerbunny>0.5</BBun_Caerbunny>
+			<BBun_DustBunny>0.1</BBun_DustBunny>
+			<BBun_HoptimusPrime>0.3</BBun_HoptimusPrime>
+		</value>
+	</Operation>
+		
+</Patch>

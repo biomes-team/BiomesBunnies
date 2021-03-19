@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biome Expansion: Redwood forest</li>
+		</mods>
+<!-- like boreal forest -->
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="RedwoodForest"]/wildAnimals</xpath>
+					<value>
+						<BBun_ChocolateRabbit>0.15</BBun_ChocolateRabbit>
+						<BBun_DustBunny>0.6</BBun_DustBunny>
+						<BBun_Hoptimus>0.15</BBun_Hoptimus>
+						<BBun_HoptimusPrime>0.1</BBun_HoptimusPrime>
+					</value>
+				</li>
+					
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
