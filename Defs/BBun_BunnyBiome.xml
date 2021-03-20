@@ -126,12 +126,16 @@
 <!-- to be replaced -->
 		<Plant_Grass>5.0</Plant_Grass>
 		<Plant_TallGrass>2.0</Plant_TallGrass>
+		
 		<Plant_Brambles>1.0</Plant_Brambles>
 		<Plant_Dandelion>0.5</Plant_Dandelion>
 		<Plant_Bush>0.6</Plant_Bush>
+		
 		<Plant_TreeOak>0.5</Plant_TreeOak>
 		<Plant_TreePoplar>0.5</Plant_TreePoplar>
+		
 		<Plant_Berry>0.05</Plant_Berry>
+		
 		<Plant_HealrootWild>0.05</Plant_HealrootWild>
     </wildPlants>
 	
@@ -149,31 +153,42 @@
 		<!-- <Rat>1.0</Rat> -->
 		<!-- <GuineaPig>0.45</GuineaPig> -->
 		
+		<BBun_Microbunny>2.2</BBun_Microbunny>
+		<!-- <Squirrel>1.0</Squirrel> -->
+		<!-- <Raccoon>0.5</Raccoon> -->
+		<!-- <Boomrat>0.4</Boomrat> -->
+		<!-- <Tortoise>0.3</Tortoise> -->
+		
+		<BBun_Rabbuck>1.3</BBun_Rabbuck>
+		<!-- <Gazelle>0.3</Gazelle> -->
+		<!-- <Deer>0.5</Deer> -->
+		<!-- <Turkey>0.5</Turkey> -->
 		
 		
 <!-- to be replaced -->
+		
 		<Donkey>0.20</Donkey>
+		<Horse>0.20</Horse>
+		
 		<Yak>0.06</Yak>
 		<Bison>0.07</Bison>
-		<Horse>0.20</Horse>
-		<Squirrel>1.0</Squirrel>
-		<Deer>0.5</Deer>
-		<WildBoar>0.5</WildBoar>
-		<Turkey>0.5</Turkey>
-		<Raccoon>0.5</Raccoon>
-		<Ibex>0.5</Ibex>
 		<Muffalo>0.5</Muffalo>
 		<Alpaca>0.5</Alpaca>
+		
+		
+		<WildBoar>0.5</WildBoar>
+		<Ibex>0.5</Ibex>
+		
 		<Boomalope>0.4</Boomalope>
-		<Boomrat>0.4</Boomrat>
-		<Tortoise>0.3</Tortoise>
-		<Gazelle>0.3</Gazelle>
+		
+		<Fox_Red>0.07</Fox_Red>
+		
 		<Bear_Grizzly>0.07</Bear_Grizzly>
 		<Wolf_Timber>0.07</Wolf_Timber>
-		<Fox_Red>0.07</Fox_Red>
 		<Cougar>0.07</Cougar>
 		<Lynx>0.07</Lynx>
 		<Warg>0.07</Warg>
+		
     </wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>
