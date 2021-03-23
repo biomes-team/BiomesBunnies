@@ -131,9 +131,9 @@
 		<Plant_Dandelion>0.5</Plant_Dandelion>
 		<Plant_Bush>0.6</Plant_Bush>
 		
-		<Bunnies_CarrotTree>0.5</Bunnies_CarrotTree>
+		<Bunnies_CarrotTree>1.6</Bunnies_CarrotTree>
 		
-		<Bunnies_Carrot>3</Bunnies_Carrot>
+		<Bunnies_Carrot>0.05</Bunnies_Carrot>
 		
 		<Plant_HealrootWild>0.05</Plant_HealrootWild>
     </wildPlants>
