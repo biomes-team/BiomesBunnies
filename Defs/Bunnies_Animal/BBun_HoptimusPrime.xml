@@ -9,7 +9,7 @@
     <statBases>
       <MoveSpeed>6.6</MoveSpeed>
       <MarketValue>350</MarketValue>
-      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
     </statBases>
 	 <!-- <colorGenerator Class="ColorGenerator_Options"> -->
       <!-- <options> -->
