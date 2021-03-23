@@ -11,10 +11,10 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_AlpineMeadow"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.2</BBun_ChocolateRabbit>
-						<BBun_DustBunny>0.8</BBun_DustBunny>
-						<BBun_Hoptimus>0.15</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.05</BBun_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.2</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.8</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.15</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
@@ -22,10 +22,10 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_CoastalDunes"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.10</BBun_ChocolateRabbit>
-						<BBun_DustBunny>0.4</BBun_DustBunny>
-						<BBun_Hoptimus>0.1</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.02</BBun_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.10</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.02</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
@@ -33,8 +33,8 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_DesertOasis"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.08</BBun_ChocolateRabbit>
-						<BBun_Hoptimus>0.3</BBun_Hoptimus>
+						<Bunnies_ChocolateRabbit>0.08</Bunnies_ChocolateRabbit>
+						<Bunnies_Hoptimus>0.3</Bunnies_Hoptimus>
 					</value>
 				</li>
 				
@@ -42,8 +42,8 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_Grasslands"]/wildAnimals</xpath>
 					<value>
-						<BBun_DustBunny>0.1</BBun_DustBunny>
-						<BBun_Hoptimus>0.2</BBun_Hoptimus>
+						<Bunnies_DustBunny>0.1</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
 					</value>
 				</li>
 				
@@ -51,9 +51,9 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_Iceberg_NoBeach"]/wildAnimals</xpath>
 					<value>
-						<BBun_Caerbunny>0.5</BBun_Caerbunny>
-						<BBun_DustBunny>0.1</BBun_DustBunny>
-						<BBun_HoptimusPrime>0.3</BBun_HoptimusPrime>
+						<Bunnies_Caerbunny>0.5</Bunnies_Caerbunny>
+						<Bunnies_DustBunny>0.1</Bunnies_DustBunny>
+						<Bunnies_HoptimusPrime>0.3</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
@@ -61,10 +61,10 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_Marsh"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.05</BBun_ChocolateRabbit>
-						<BBun_DustBunny>0.2</BBun_DustBunny>
-						<BBun_Hoptimus>0.1</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.2</BBun_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.05</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.2</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
@@ -72,8 +72,8 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_CloudForest"]/wildAnimals</xpath>
 					<value>
-						<BBun_Hoptimus>0.2</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.05</BBun_HoptimusPrime>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
@@ -81,8 +81,8 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_Sandbar_NoBeach"]/wildAnimals</xpath>
 					<value>
-						<BBun_Hoptimus>0.2</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.1</BBun_HoptimusPrime>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				

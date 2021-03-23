@@ -10,39 +10,39 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="PoisonForest"]/wildAnimals</xpath>
 					<value>
-						<BBun_HoptimusPrime>0.2</BBun_HoptimusPrime>
+						<Bunnies_HoptimusPrime>0.2</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 					
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="Savanna"]/wildAnimals</xpath>
 					<value>
-						<BBun_Hoptimus>0.1</BBun_Hoptimus>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="Volcano"]/wildAnimals</xpath>
 					<value>
-						<BBun_HoptimusPrime>0.3</BBun_HoptimusPrime>
+						<Bunnies_HoptimusPrime>0.3</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="Wasteland"]/wildAnimals</xpath>
 					<value>
-						<BBun_Hoptimus>0.1</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.05</BBun_HoptimusPrime>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="Wetland"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.08</BBun_ChocolateRabbit>
-						<BBun_DustBunny>0.4</BBun_DustBunny>
-						<BBun_Hoptimus>0.15</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.1</BBun_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.08</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.15</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 

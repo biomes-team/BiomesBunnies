@@ -3,7 +3,7 @@
 <Defs>
   
   <ThingDef ParentName="AnimalThingBase">
-    <defName>BBun_HoptimusPrime</defName>
+    <defName>Bunnies_HoptimusPrime</defName>
     <label>hoptimus prime</label>
     <description>A bigger, stronger hoptimus. More docile than the hoptimus.</description>
     <statBases>
@@ -112,9 +112,9 @@
   </ThingDef>
   
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BBun_HoptimusPrime</defName>
+    <defName>Bunnies_HoptimusPrime</defName>
     <label>hoptimus prime</label>
-    <race>BBun_HoptimusPrime</race>
+    <race>Bunnies_HoptimusPrime</race>
     <combatPower>250</combatPower>
     <ecoSystemWeight>1.8</ecoSystemWeight>
     <alternateGraphicChance>0.5</alternateGraphicChance>
@@ -122,7 +122,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BBun/Animal/HoptimusPrime/HoptimusPrime</texPath>
+          <texPath>Bunnies/Animal/HoptimusPrime/HoptimusPrime</texPath>
           <color>(115,82,71)</color>
           <drawSize>1.6</drawSize>
           <shadowData>
@@ -137,7 +137,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BBun/Animal/HoptimusPrime/HoptimusPrime</texPath>
+          <texPath>Bunnies/Animal/HoptimusPrime/HoptimusPrime</texPath>
           <color>(115,82,71)</color>
           <drawSize>2.4</drawSize>
           <shadowData>
@@ -152,7 +152,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BBun/Animal/HoptimusPrime/HoptimusPrime</texPath>
+          <texPath>Bunnies/Animal/HoptimusPrime/HoptimusPrime</texPath>
           <color>(115,82,71)</color>
           <drawSize>3.4</drawSize>
           <shadowData>

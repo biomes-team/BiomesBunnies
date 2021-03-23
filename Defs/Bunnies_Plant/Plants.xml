@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Bunnies_Carrot</defName>
+    <label>carrot</label>
+    <description>A sweet root vegetable favored by all types of bunny.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.35</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Bunnies/Plants/Carrot/Carrot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>30</pathCost>
+    <plant>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <growDays>8</growDays>
+      <immatureGraphicPath>Bunnies/Plants/Carrot/Carrot_Immature</immatureGraphicPath>
+      <harvestYield>1</harvestYield>
+      <harvestWork>250</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawBerries</harvestedThingDef>
+      <wildClusterRadius>5</wildClusterRadius>
+      <wildClusterWeight>250</wildClusterWeight>
+      <visualSizeRange>0.95~1.7</visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>Bunnies_CarrotTree</defName>
+    <label>poplar tree</label>
+    <description>A softwood tree that grows very fast. Unfortunately, its wood is weak and so it yields less useful material than hardwood trees.</description>
+    <graphicData>
+      <texPath>Bunnies/Plants/Carrot/CarrotTree</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>15.05</growDays>
+      <harvestWork>800</harvestWork>
+      <harvestYield>27</harvestYield>
+      <wildClusterWeight>35</wildClusterWeight>
+    </plant>
+  </ThingDef>
+
+</Defs>

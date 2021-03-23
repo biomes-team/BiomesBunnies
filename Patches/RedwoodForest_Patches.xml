@@ -10,10 +10,10 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="RedwoodForest"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.15</BBun_ChocolateRabbit>
-						<BBun_DustBunny>0.6</BBun_DustBunny>
-						<BBun_Hoptimus>0.15</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.1</BBun_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.15</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.6</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.15</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 					

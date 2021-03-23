@@ -16,42 +16,42 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.15</BBun_ChocolateRabbit>
-						<BBun_DustBunny>0.6</BBun_DustBunny>
-						<BBun_Hoptimus>0.15</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.1</BBun_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.15</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.6</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.15</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_DesertIsland"]/wildAnimals</xpath>
 					<value>
-						<BBun_Hoptimus>0.1</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.05</BBun_HoptimusPrime>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_TemperateIsland"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.05</BBun_ChocolateRabbit>
-						<BBun_DustBunny>0.4</BBun_DustBunny>
-						<BBun_Hoptimus>0.2</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.05</BBun_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.05</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_TropicalIsland"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.05</BBun_ChocolateRabbit>
-						<BBun_Hoptimus>0.3</BBun_Hoptimus>
+						<Bunnies_ChocolateRabbit>0.05</Bunnies_ChocolateRabbit>
+						<Bunnies_Hoptimus>0.3</Bunnies_Hoptimus>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="BiomesIslands_TundraIsland"]/wildAnimals</xpath>
 					<value>
-						<BBun_ChocolateRabbit>0.07</BBun_ChocolateRabbit>
-						<BBun_DustBunny>0.8</BBun_DustBunny>
-						<BBun_Hoptimus>0.1</BBun_Hoptimus>
-						<BBun_HoptimusPrime>0.2</BBun_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.07</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.8</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.2</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 			</operations>

@@ -3,11 +3,11 @@
 <Defs>
   
 <ThingDef ParentName="ResourceBase">
-    <defName>BBun_BunnyDust</defName>
+    <defName>Bunnies_BunnyDust</defName>
     <label>bunny dust</label>
     <description>The wool of a dust bunny. Naturally felted, this wool is tough and insulates well.</description>
     <graphicData>
-      <texPath>BBun/Item/BunnyDust</texPath>
+      <texPath>Bunnies/Item/BunnyDust</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>

@@ -3,7 +3,7 @@
 <Defs>
   
 <ThingDef ParentName="AnimalThingBase">
-    <defName>BBun_Rabbuck</defName>
+    <defName>Bunnies_Rabbuck</defName>
     <label>rabbuck</label>
     <description>TODO: Description</description>
     <!-- <uiIconScale>1.5</uiIconScale> -->
@@ -106,16 +106,16 @@
 
   
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BBun_Rabbuck</defName>
+    <defName>Bunnies_Rabbuck</defName>
     <label>rabbuck</label>
-    <race>BBun_Rabbuck</race>
+    <race>Bunnies_Rabbuck</race>
 	<combatPower>45</combatPower>
     <ecoSystemWeight>0.5</ecoSystemWeight>
     <wildGroupSize>3~12</wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>BBun/Animal/Rabbuck/RabbuckFawn</texPath>
+          <texPath>Bunnies/Animal/Rabbuck/RabbuckFawn</texPath>
           <drawSize>1.1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -125,7 +125,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BBun/Animal/Rabbuck/RabbuckMale</texPath>
+          <texPath>Bunnies/Animal/Rabbuck/RabbuckMale</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -133,7 +133,7 @@
           </shadowData>
         </bodyGraphicData>
 		<femaleGraphicData>
-          <texPath>BBun/Animal/Rabbuck/RabbuckFemale</texPath>
+          <texPath>Bunnies/Animal/Rabbuck/RabbuckFemale</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -147,7 +147,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>BBun/Animal/Rabbuck/RabbuckMale</texPath>
+          <texPath>Bunnies/Animal/Rabbuck/RabbuckMale</texPath>
           <drawSize>1.8</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
@@ -155,7 +155,7 @@
           </shadowData>
         </bodyGraphicData>
 		<femaleGraphicData>
-          <texPath>BBun/Animal/Rabbuck/RabbuckFemale</texPath>
+          <texPath>Bunnies/Animal/Rabbuck/RabbuckFemale</texPath>
           <drawSize>1.8</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
