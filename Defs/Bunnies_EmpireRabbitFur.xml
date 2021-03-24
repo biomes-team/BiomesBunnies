@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  
+   <ThingDef ParentName="WoolBase">
+    <defName>Bunnies_EmpireRabbitFur</defName>
+    <label>empire rabbit fur</label>
+    <description>Soft, light and provides very good insulation.</description>
+    <graphicData>
+		<color>(210,150,71)</color>
+    </graphicData>
+    <statBases>
+		<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+		<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+		<MarketValue>3.2</MarketValue>
+    </statBases>
+    <stuffProps>
+		<statFactors>
+			<Beauty>2.0</Beauty>
+		</statFactors>
+		<color>(210,150,71)</color>
+    </stuffProps>
+  </ThingDef>
+
+  
+</Defs>

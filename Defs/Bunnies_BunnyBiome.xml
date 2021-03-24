@@ -163,15 +163,19 @@
 		<!-- <Deer>0.5</Deer> -->
 		<!-- <Turkey>0.5</Turkey> -->
 		
+		<Bunnies_EmpireRabbit>0.6</Bunnies_EmpireRabbit>
+		<!-- <Yak>0.06</Yak> -->
+		<!-- <Bison>0.07</Bison> -->
+		<!-- <Muffalo>0.5</Muffalo> -->
 		
 <!-- to be replaced -->
 		
 		<Donkey>0.20</Donkey>
 		<Horse>0.20</Horse>
 		
-		<Yak>0.06</Yak>
-		<Bison>0.07</Bison>
-		<Muffalo>0.5</Muffalo>
+		
+		
+		
 		<Alpaca>0.5</Alpaca>
 		
 		
