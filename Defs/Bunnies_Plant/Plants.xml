@@ -3,7 +3,7 @@
 
 
   <ThingDef ParentName="PlantBase">
-    <defName>Bunnies_Carrot</defName>
+    <defName>Bunnies_CarrotPlant</defName>
     <label>carrot</label>
     <description>A sweet root vegetable favored by all types of bunny.</description>
     <statBases>
@@ -11,7 +11,7 @@
       <Nutrition>0.35</Nutrition>
     </statBases>
     <graphicData>
-      <texPath>Bunnies/Plants/Carrot/Carrot</texPath>
+      <texPath>Bunnies/Plants/CarrotPlant/CarrotPlant</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <selectable>true</selectable>
@@ -22,7 +22,7 @@
       <fertilityMin>0.5</fertilityMin>
       <fertilitySensitivity>0.5</fertilitySensitivity>
       <growDays>8</growDays>
-      <immatureGraphicPath>Bunnies/Plants/Carrot/Carrot_Immature</immatureGraphicPath>
+      <immatureGraphicPath>Bunnies/Plants/CarrotPlant/CarrotPlant_Immature</immatureGraphicPath>
       <harvestYield>1</harvestYield>
       <harvestWork>250</harvestWork>
       <harvestTag>Standard</harvestTag>
@@ -30,6 +30,7 @@
       <wildClusterRadius>5</wildClusterRadius>
       <wildClusterWeight>250</wildClusterWeight>
       <visualSizeRange>0.95~1.7</visualSizeRange>
+	  <maxMeshCount>4</maxMeshCount>
       <topWindExposure>0.3</topWindExposure>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
@@ -38,10 +39,10 @@
   
   <ThingDef ParentName="DeciduousTreeBase">
     <defName>Bunnies_CarrotTree</defName>
-    <label>poplar tree</label>
-    <description>A softwood tree that grows very fast. Unfortunately, its wood is weak and so it yields less useful material than hardwood trees.</description>
+    <label>carrot tree</label>
+    <description>A woody carrot that grows very fast. Unfortunately, its wood is weak and so it yields less useful material than proper trees.</description>
     <graphicData>
-      <texPath>Bunnies/Plants/Carrot/CarrotTree</texPath>
+      <texPath>Bunnies/Plants/CarrotTree/CarrotTree</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
