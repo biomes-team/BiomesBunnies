@@ -93,6 +93,7 @@
     <tradeTags>
       <li>AnimalUncommon</li>
       <li>AnimalFighter</li>
+	  <li>Bunnies_TradeTag</li>
     </tradeTags>
   </ThingDef>
   

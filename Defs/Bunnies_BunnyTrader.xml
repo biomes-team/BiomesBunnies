@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+
+  <TraderKindDef>
+    <defName>Bunnies_BunnyTrader</defName>
+    <label>bunny trader</label>
+    <stockGenerators>
+      
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>750~2500</countRange>
+      </li>
+	 
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Kibble</li>
+          <li>Bunnies_ChocolateEgg</li>
+          <li>Bunnies_BunnyDust</li>
+          <li>Bunnies_EmpireRabbitFur</li>
+        </thingDefs>
+      </li>
+
+      <!-- Animals -->
+      <li Class="StockGenerator_Animals">
+        <!-- <maxWildness>0.70</maxWildness> -->
+        <tradeTagsSell>
+          <li>Bunnies_TradeTag</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>Bunnies_TradeTag</li>
+		  <li>AnimalPet</li>
+        </tradeTagsBuy>
+        <kindCountRange>2~4</kindCountRange>
+        <countRange>3~4</countRange>
+      </li>
+
+      <!-- Buying -->
+
+      <li Class="StockGenerator_BuyTradeTag"><tag>Bunnies_TradeTag</tag></li>
+
+      
+    </stockGenerators>
+  </TraderKindDef>
+
+
+
+
+</Defs>

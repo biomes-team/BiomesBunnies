@@ -43,7 +43,7 @@
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Light</leatherDef>
       <useMeatFrom>Hare</useMeatFrom>
-      <wildness>0.75</wildness>
+      <wildness>0.98</wildness>
       <trainability>Intermediate</trainability>
       <petness>0.0</petness>
       <!-- <mateMtbHours>8</mateMtbHours> -->
@@ -85,6 +85,7 @@
     <tradeTags>
       <li>AnimalUncommon</li>
       <li>AnimalFighter</li>
+	  <li>Bunnies_TradeTag</li>
     </tradeTags>
   </ThingDef>
 

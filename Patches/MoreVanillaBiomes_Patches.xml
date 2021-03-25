@@ -11,10 +11,13 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_AlpineMeadow"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_ChocolateRabbit>0.2</Bunnies_ChocolateRabbit>
-						<Bunnies_DustBunny>0.8</Bunnies_DustBunny>
-						<Bunnies_Hoptimus>0.15</Bunnies_Hoptimus>
+						<Bunnies_ChocolateRabbit>0.15</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.08</Bunnies_Hoptimus>
 						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+						<Bunnies_EmpireRabbit>0.1</Bunnies_EmpireRabbit>
+						<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -23,9 +26,11 @@
 					<xpath>Defs/BiomeDef[defName="ZBiome_CoastalDunes"]/wildAnimals</xpath>
 					<value>
 						<Bunnies_ChocolateRabbit>0.10</Bunnies_ChocolateRabbit>
-						<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
+						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
 						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
 						<Bunnies_HoptimusPrime>0.02</Bunnies_HoptimusPrime>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.2</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -34,7 +39,10 @@
 					<xpath>Defs/BiomeDef[defName="ZBiome_DesertOasis"]/wildAnimals</xpath>
 					<value>
 						<Bunnies_ChocolateRabbit>0.08</Bunnies_ChocolateRabbit>
-						<Bunnies_Hoptimus>0.3</Bunnies_Hoptimus>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.2</Bunnies_Microbunny>
+						<Bunnies_EmpireRabbit>0.05</Bunnies_EmpireRabbit>
 					</value>
 				</li>
 				
@@ -44,6 +52,8 @@
 					<value>
 						<Bunnies_DustBunny>0.1</Bunnies_DustBunny>
 						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -51,9 +61,9 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="ZBiome_Iceberg_NoBeach"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_Caerbunny>0.5</Bunnies_Caerbunny>
+						<Bunnies_Caerbunny>0.2</Bunnies_Caerbunny>
 						<Bunnies_DustBunny>0.1</Bunnies_DustBunny>
-						<Bunnies_HoptimusPrime>0.3</Bunnies_HoptimusPrime>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
@@ -65,6 +75,9 @@
 						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
 						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
 						<Bunnies_HoptimusPrime>0.2</Bunnies_HoptimusPrime>
+						<Bunnies_EmpireRabbit>0.2</Bunnies_EmpireRabbit>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -74,6 +87,8 @@
 					<value>
 						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
 						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
 					</value>
 				</li>
 				

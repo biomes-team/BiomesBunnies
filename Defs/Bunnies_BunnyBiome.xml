@@ -174,8 +174,6 @@
 		<Horse>0.20</Horse>
 		
 		
-		
-		
 		<Alpaca>0.5</Alpaca>
 		
 		
@@ -196,6 +194,8 @@
     <allowedPackAnimals>
       <li>Muffalo</li>
       <li>Alpaca</li>
+      <li>Bunnies_HoptimusPrime</li>
+      <li>Bunnies_EmpireRabbit</li>
     </allowedPackAnimals>
   </BiomeDef>
 

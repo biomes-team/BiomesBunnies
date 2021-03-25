@@ -82,6 +82,7 @@
 	
     <tradeTags>
       <li>AnimalExotic</li>
+	  <li>Bunnies_TradeTag</li>
     </tradeTags>
   </ThingDef>
 

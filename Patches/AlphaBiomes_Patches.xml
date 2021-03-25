@@ -11,8 +11,9 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="AB_FeraliskInfestedJungle"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
-						<Bunnies_HoptimusPrime>0.15</Bunnies_HoptimusPrime>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -20,8 +21,8 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="AB_GallatrossGraveyard"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
-						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.03</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
@@ -30,9 +31,11 @@
 					<xpath>Defs/BiomeDef[defName="AB_GelatinousSuperorganism"]/wildAnimals</xpath>
 					<value>
 						<Bunnies_ChocolateRabbit>0.02</Bunnies_ChocolateRabbit>
-						<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
+						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
 						<Bunnies_Hoptimus>0.15</Bunnies_Hoptimus>
 						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.2</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -41,6 +44,7 @@
 					<xpath>Defs/BiomeDef[defName="AB_MechanoidIntrusion"]/wildAnimals</xpath>
 					<value>
 						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+						<Bunnies_Microbunny>0.05</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -48,7 +52,9 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="AB_MycoticJungle"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_Hoptimus>0.3</Bunnies_Hoptimus>
+						<Bunnies_Hoptimus>0.05</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.01</Bunnies_HoptimusPrime>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -56,7 +62,7 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="AB_OcularForest"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_Caerbunny>0.05</Bunnies_Caerbunny>
+						<Bunnies_Caerbunny>0.03</Bunnies_Caerbunny>
 					</value>
 				</li>
 				
@@ -68,21 +74,21 @@
 					</value>
 				</li>
 				
-			<!-- arid, fiery 
+			<!-- arid, fiery--> 
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="AB_PyroclasticConflagration"]/wildAnimals</xpath>
 					<value>
-						<Placeholder>99999999</Placeholder>
+						<Bunnies_EmpireRabbit>0.1</Bunnies_EmpireRabbit>
 					</value>
-				</li>-->
+				</li>
 				
-			<!-- dark, cave 
+			<!-- dark, cave -->
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="AB_RockyCrags"]/wildAnimals</xpath>
 					<value>
-						<Placeholder>99999999</Placeholder>
+						<Bunnies_DustBunny>0.05</Bunnies_DustBunny>
 					</value>
-				</li>-->
+				</li>
 				
 			<!-- arid-desert, temperate? -->
 				<li Class="PatchOperationAdd"> 
@@ -90,6 +96,7 @@
 					<value>
 						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
 						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+						<Bunnies_Rabbuck>0.05</Bunnies_Rabbuck>
 					</value>
 				</li>
 				

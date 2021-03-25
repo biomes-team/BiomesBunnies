@@ -11,10 +11,13 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="RRP_Grassland"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_ChocolateRabbit>0.07</Bunnies_ChocolateRabbit>
-						<Bunnies_DustBunny>0.8</Bunnies_DustBunny>
-						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
-						<Bunnies_HoptimusPrime>0.2</Bunnies_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.04</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.3</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.08</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
+						<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+						<Bunnies_EmpireRabbit>0.05</Bunnies_EmpireRabbit>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -22,8 +25,10 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="RRP_Savanna"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+						<Bunnies_DustBunny>0.1</Bunnies_DustBunny>
 						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.05</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -31,10 +36,13 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="RRP_Steppes"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_ChocolateRabbit>0.15</Bunnies_ChocolateRabbit>
-						<Bunnies_DustBunny>0.5</Bunnies_DustBunny>
-						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
-						<Bunnies_HoptimusPrime>0.2</Bunnies_HoptimusPrime>
+						<Bunnies_ChocolateRabbit>0.08</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.3</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.07</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_EmpireRabbit>0.05</Bunnies_EmpireRabbit>
+						<Bunnies_Microbunny>0.06</Bunnies_Microbunny>
 					</value>
 				</li>
 				
@@ -42,9 +50,9 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="RRP_TemperateDesert"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
-						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
-						<Bunnies_HoptimusPrime>0.15</Bunnies_HoptimusPrime>
+						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.08</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.08</Bunnies_HoptimusPrime>
 					</value>
 				</li>
 				
@@ -52,9 +60,10 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="RRP_Permafrost"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_Caerbunny>0.1</Bunnies_Caerbunny>
-						<Bunnies_DustBunny>0.6</Bunnies_DustBunny>
-						<Bunnies_HoptimusPrime>0.5</Bunnies_HoptimusPrime>
+						<Bunnies_Caerbunny>0.06</Bunnies_Caerbunny>
+						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+						<Bunnies_HoptimusPrime>0.3</Bunnies_HoptimusPrime>
+						<Bunnies_EmpireRabbit>0.2</Bunnies_EmpireRabbit>
 					</value>
 				</li>
 				
@@ -62,7 +71,8 @@
 				<li Class="PatchOperationAdd"> 
 					<xpath>Defs/BiomeDef[defName="RRP_Oasis"]/wildAnimals</xpath>
 					<value>
-						<Bunnies_Hoptimus>0.3</Bunnies_Hoptimus>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_Microbunny>0.3</Bunnies_Microbunny>
 					</value>
 				</li>
 					

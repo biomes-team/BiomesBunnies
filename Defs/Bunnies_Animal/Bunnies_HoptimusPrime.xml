@@ -108,6 +108,7 @@
     </race>
     <tradeTags>
       <li>AnimalFighter</li>
+	  <li>Bunnies_TradeTag</li>
     </tradeTags>
   </ThingDef>
   
