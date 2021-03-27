@@ -167,19 +167,19 @@
 		<!-- <Yak>0.06</Yak> -->
 		<!-- <Bison>0.07</Bison> -->
 		<!-- <Muffalo>0.5</Muffalo> -->
+				
+		<Bunnies_Jackalope>1.0</Bunnies_Jackalope>
+		<!-- <WildBoar>0.5</WildBoar> -->
+		<!-- <Ibex>0.5</Ibex> -->
+		
 		
 <!-- to be replaced -->
 		
 		<Donkey>0.20</Donkey>
 		<Horse>0.20</Horse>
 		
-		
 		<Alpaca>0.5</Alpaca>
-		
-		
-		<WildBoar>0.5</WildBoar>
-		<Ibex>0.5</Ibex>
-		
+
 		<Boomalope>0.4</Boomalope>
 		
 		<Fox_Red>0.07</Fox_Red>
