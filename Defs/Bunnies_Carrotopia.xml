@@ -172,6 +172,9 @@
 		<!-- <WildBoar>0.5</WildBoar> -->
 		<!-- <Ibex>0.5</Ibex> -->
 		
+		<Bunnies_BunFox>0.1</Bunnies_BunFox>
+		<!-- <Fox_Red>0.07</Fox_Red> -->
+		
 		
 <!-- to be replaced -->
 		
@@ -182,7 +185,6 @@
 
 		<Boomalope>0.4</Boomalope>
 		
-		<Fox_Red>0.07</Fox_Red>
 		
 		<Bear_Grizzly>0.07</Bear_Grizzly>
 		<Wolf_Timber>0.07</Wolf_Timber>
