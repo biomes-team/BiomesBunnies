@@ -2,7 +2,7 @@
 <Defs>
 
   <BiomeDef>
-    <defName>Bunnies_BunnyBiome</defName>
+    <defName>Bunnies_Carrotopia</defName>
     <label>carrotopia</label>
     <description>Forests of carrots populated by many species of rabbit.</description>
     <workerClass>BiomesKit.UniversalBiomeWorker</workerClass>
