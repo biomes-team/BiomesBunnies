@@ -5,7 +5,7 @@
 <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_Microbunny</defName>
     <label>microbunny</label>
-    <description>TODO: Description</description>
+    <description>A small, rodentlike rabbit.</description>
     <uiIconScale>1.5</uiIconScale>
 	<statBases>
       <MoveSpeed>5.0</MoveSpeed>
