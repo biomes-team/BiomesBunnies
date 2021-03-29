@@ -175,6 +175,13 @@
 		<Bunnies_BunFox>0.1</Bunnies_BunFox>
 		<!-- <Fox_Red>0.07</Fox_Red> -->
 		
+		<Bunnies_Wolpertinger>0.3</Bunnies_Wolpertinger>
+		<!-- <Bear_Grizzly>0.07</Bear_Grizzly> -->
+		<!-- <Wolf_Timber>0.07</Wolf_Timber> -->
+		<!-- <Cougar>0.07</Cougar> -->
+		<!-- <Lynx>0.07</Lynx> -->
+		<!-- <Warg>0.07</Warg> -->
+		
 		
 <!-- to be replaced -->
 		
@@ -186,11 +193,6 @@
 		<Boomalope>0.4</Boomalope>
 		
 		
-		<Bear_Grizzly>0.07</Bear_Grizzly>
-		<Wolf_Timber>0.07</Wolf_Timber>
-		<Cougar>0.07</Cougar>
-		<Lynx>0.07</Lynx>
-		<Warg>0.07</Warg>
 		
     </wildAnimals>
     <allowedPackAnimals>
