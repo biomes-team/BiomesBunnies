@@ -5,7 +5,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_Wolpertinger</defName>
     <label>wolpertinger</label>
-    <description>TODO: Description</description>
+    <description>Don't call it a bunny, unless you want your face chewed off. So strong, it even hunts Hoptimus.</description>
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
       <MarketValue>450</MarketValue>

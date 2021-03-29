@@ -4,7 +4,7 @@
   
   <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_EmpireRabbit</defName>
-    <label>empire rabbit</label>
+    <label>emperor rabbit</label>
     <description>A large herd rabbit. Prized for its golden fur, which insulates quite well.</description>
     <statBases>
       <MoveSpeed>4.4</MoveSpeed>

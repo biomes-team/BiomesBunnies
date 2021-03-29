@@ -5,7 +5,7 @@
 <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_Microbunny</defName>
     <label>microbunny</label>
-    <description>A small, rodentlike rabbit.</description>
+    <description>It's puff. It's fluff. Most importantly, it's so cute you can't get enough!</description>
     <uiIconScale>1.5</uiIconScale>
 	<statBases>
       <MoveSpeed>5.0</MoveSpeed>
