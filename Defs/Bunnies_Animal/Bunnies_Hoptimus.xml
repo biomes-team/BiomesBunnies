@@ -5,7 +5,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_Hoptimus</defName>
     <label>hoptimus</label>
-    <description>TODO: Description</description>
+    <description>A truly powerful species of bunny. Large and in charge.</description>
     <statBases>
       <MoveSpeed>6.0</MoveSpeed>
       <MarketValue>350</MarketValue>

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>Bunnies_BunFox</defName>
 		<label>bunfox</label>
-		<description>TODO: Description</description>
+		<description>Small fiery-coated carnivore bunny.</description>
 		<uiIconScale>1.5</uiIconScale>
 		<statBases>
 			<MoveSpeed>4.7</MoveSpeed>

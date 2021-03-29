@@ -5,7 +5,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_HoptimusPrime</defName>
     <label>hoptimus prime</label>
-    <description>A bigger, stronger hoptimus. More docile than the hoptimus.</description>
+    <description>Hoptimus Prime is the primary bunny species in this location. You can't deny it's superiority.</description>
     <statBases>
       <MoveSpeed>6.6</MoveSpeed>
       <MarketValue>350</MarketValue>

@@ -5,7 +5,7 @@
 <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_Caerbunny</defName>
     <label>caerbunny</label>
-    <description>A small, ferocious, predatory rabbit. It hungers for blood.</description>
+    <description>A small, ferocious, predatory bunny. It hungers for blood.</description>
     <uiIconScale>1.5</uiIconScale>
 	<statBases>
       <MoveSpeed>6.3</MoveSpeed>

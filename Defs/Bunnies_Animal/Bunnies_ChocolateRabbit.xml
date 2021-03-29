@@ -5,7 +5,7 @@
 <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_ChocolateRabbit</defName>
     <label>chocolate rabbit</label>
-    <description>A chocolate rabbit with a hollow center. How is it alive? Best not to ask questions.</description>
+    <description>A delicious chocolate rabbit with a hollow center. Where does it come from? How is it alive? And how is it so tasty? Best not to ask questions.</description>
     <uiIconScale>1.5</uiIconScale>
 	<statBases>
       <MoveSpeed>4.0</MoveSpeed>

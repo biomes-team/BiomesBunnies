@@ -5,7 +5,7 @@
 <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_Rabbuck</defName>
     <label>rabbuck</label>
-    <description>TODO: Description</description>
+    <description>What if bambi married Thumper?</description>
     <!-- <uiIconScale>1.5</uiIconScale> -->
 	<statBases>
       <MoveSpeed>5.3</MoveSpeed>
