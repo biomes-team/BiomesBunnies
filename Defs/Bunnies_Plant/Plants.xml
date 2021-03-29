@@ -5,7 +5,7 @@
   <ThingDef ParentName="PlantBase">
 		<defName>Bunnies_CarrotPlant</defName>
 		<label>carrot</label>
-		<description>A sweet root vegetable favored by all types of bunny.</description>
+		<description>A sweet root vegetable favored by all types of bunnies.</description>
 		<statBases>
 			  <MaxHitPoints>120</MaxHitPoints>
 			  <Nutrition>0.35</Nutrition>
