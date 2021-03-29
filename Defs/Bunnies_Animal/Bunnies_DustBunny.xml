@@ -5,7 +5,7 @@
 <ThingDef ParentName="AnimalThingBase">
     <defName>Bunnies_DustBunny</defName>
     <label>dust bunny</label>
-    <description>TODO: Description</description>
+    <description>A domesticated rabbit with fuzzy gray wool.</description>
     <uiIconScale>1.5</uiIconScale>
 	<statBases>
       <MoveSpeed>4.5</MoveSpeed>
