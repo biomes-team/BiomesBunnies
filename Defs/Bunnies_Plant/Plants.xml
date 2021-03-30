@@ -23,28 +23,32 @@
 		<fillPercent>0.20</fillPercent>
 		<pathCost>30</pathCost>
 		<plant>
-			  <fertilityMin>0.5</fertilityMin>
-			  <fertilitySensitivity>0.5</fertilitySensitivity>
-			  <growDays>8</growDays>
-			  <immatureGraphicPath>Bunnies/Plants/CarrotPlant/CarrotPlant_Immature</immatureGraphicPath>
-			  <harvestYield>5</harvestYield>
-			  <harvestWork>250</harvestWork>
-			  <harvestTag>Standard</harvestTag>
-			  <harvestedThingDef>Bunnies_Carrots</harvestedThingDef>
-			  <wildClusterRadius>5</wildClusterRadius>
-			  <wildClusterWeight>250</wildClusterWeight>
-			  <visualSizeRange>0.7~1.2</visualSizeRange>
-			  <maxMeshCount>4</maxMeshCount>
-			  <topWindExposure>0.3</topWindExposure>
-			  <wildOrder>2</wildOrder>
-			  <purpose>Food</purpose>
+		<fertilityMin>0.5</fertilityMin>
+		<fertilitySensitivity>0.5</fertilitySensitivity>
+		<growDays>8</growDays>
+		<immatureGraphicPath>Bunnies/Plants/CarrotPlant/CarrotPlant_Immature</immatureGraphicPath>
+		<harvestYield>5</harvestYield>
+		<harvestWork>250</harvestWork>
+		<harvestTag>Standard</harvestTag>
+		<harvestedThingDef>Bunnies_Carrots</harvestedThingDef>
+		<wildClusterRadius>5</wildClusterRadius>
+		<wildClusterWeight>250</wildClusterWeight>
+		<visualSizeRange>0.7~1.2</visualSizeRange>
+		<maxMeshCount>4</maxMeshCount>
+		<topWindExposure>0.3</topWindExposure>
+		<wildOrder>2</wildOrder>
+		<purpose>Food</purpose>
+		<sowTags>
+			<li>Ground</li>
+		</sowTags>
+		<mustBeWildToSow>true</mustBeWildToSow>
 		</plant>
   </ThingDef>
   
   <ThingDef ParentName="TreeBase">
-		<defName>Bunnies_CarrotTree</defName>
-		<label>carrot tree</label>
-		<description>A woody carrot that grows moderately fast. Unfortunately, its wood is weak and so it yields less useful material than proper trees.</description>
+		<defName>Bunnies_OakotTree</defName>
+		<label>oakot</label>
+		<description>A thick woody carrot that grows slowly but is as strong as an oak.</description>
 		<graphicData>
 			  <texPath>Bunnies/Plants/CarrotTree/CarrotTree</texPath>
 			  <graphicClass>Graphic_Single</graphicClass>
@@ -55,17 +59,17 @@
 		</statBases>
 		<ingestible />
 		<plant>
-			  <growDays>15.05</growDays>
-			  <harvestWork>800</harvestWork>
-			  <harvestYield>30</harvestYield>
+			  <growDays>30</growDays>
+			  <harvestWork>1400</harvestWork>
+			  <harvestYield>46</harvestYield>
 			  <wildClusterWeight>35</wildClusterWeight>
 		</plant>
   </ThingDef>
   
   <ThingDef ParentName="TreeBase">
-		<defName>Bunnies_WhiteCarrotTree</defName>
-		<label>carrot tree</label>
-		<description>A woody carrot that grows very fast. Unfortunately, its wood is weak and so it yields even less useful material than orange carrot trees.</description>
+		<defName>Bunnies_PaleCarrotTree</defName>
+		<label>pale carrot</label>
+		<description>A woody carrot that grows very fast. Unfortunately, its wood is weak and so it yields less useful material than oakots.</description>
 		<graphicData>
 			  <texPath>Bunnies/Plants/WhiteCarrotTree/WhiteCarrotTree</texPath>
 			  <graphicClass>Graphic_Single</graphicClass>
@@ -85,14 +89,14 @@
 
   <ThingDef ParentName="HealrootBase">
 		<defName>Bunnies_HealleafWild</defName>
-		<label>wild healleaf</label>
-		<description>A slow-growing Plant which yields herbal medicine when harvested.\n\nThis wild breed of healleaf is hardier than domesticated healroot, but too difficult to cultivate.</description>
+		<label>healleaf</label>
+		<description>A slow-growing Plant which yields herbal medicine when harvested.\n\nHealleaf is hardier than domesticated healroot, but too difficult to cultivate.</description>
 		<graphicData>
 			  <texPath>Bunnies/Plants/Healleaf/Healleaf</texPath>
 			  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<plant>
-			  <visualSizeRange>0.7~1.4</visualSizeRange>
+			  <visualSizeRange>0.7~1.5</visualSizeRange>
 			  <wildClusterRadius>4</wildClusterRadius>
 			  <wildClusterWeight>80</wildClusterWeight>
 		</plant>
