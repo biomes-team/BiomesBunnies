@@ -11,8 +11,8 @@
 			  <Nutrition>0.35</Nutrition>
 		</statBases>
 		<graphicData>
-			  <texPath>Bunnies/Plants/CarrotPlant/CarrotPlant</texPath>
-			  <graphicClass>Graphic_Single</graphicClass>
+			<texPath>Bunnies/Plants/CarrotPlant/CarrotPlant_Mature</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
 			  <!-- <shadowData> -->
 					<!-- <volume>(0.2, 0.35, 0.13)</volume> -->
 					<!-- <offset>(0,0,-0.42)</offset> -->
@@ -33,7 +33,7 @@
 			  <harvestedThingDef>Bunnies_Carrots</harvestedThingDef>
 			  <wildClusterRadius>5</wildClusterRadius>
 			  <wildClusterWeight>250</wildClusterWeight>
-			  <visualSizeRange>0.7~1.4</visualSizeRange>
+			  <visualSizeRange>0.7~1.2</visualSizeRange>
 			  <maxMeshCount>4</maxMeshCount>
 			  <topWindExposure>0.3</topWindExposure>
 			  <wildOrder>2</wildOrder>
@@ -44,9 +44,30 @@
   <ThingDef ParentName="TreeBase">
 		<defName>Bunnies_CarrotTree</defName>
 		<label>carrot tree</label>
-		<description>A woody carrot that grows very fast. Unfortunately, its wood is weak and so it yields less useful material than proper trees.</description>
+		<description>A woody carrot that grows moderately fast. Unfortunately, its wood is weak and so it yields less useful material than proper trees.</description>
 		<graphicData>
 			  <texPath>Bunnies/Plants/CarrotTree/CarrotTree</texPath>
+			  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			  <Beauty>1</Beauty>
+			  <Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible />
+		<plant>
+			  <growDays>15.05</growDays>
+			  <harvestWork>800</harvestWork>
+			  <harvestYield>30</harvestYield>
+			  <wildClusterWeight>35</wildClusterWeight>
+		</plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="TreeBase">
+		<defName>Bunnies_WhiteCarrotTree</defName>
+		<label>carrot tree</label>
+		<description>A woody carrot that grows very fast. Unfortunately, its wood is weak and so it yields even less useful material than orange carrot trees.</description>
+		<graphicData>
+			  <texPath>Bunnies/Plants/WhiteCarrotTree/WhiteCarrotTree</texPath>
 			  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>

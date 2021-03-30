@@ -129,6 +129,8 @@
 		<Plant_Bush>0.6</Plant_Bush>
 		
 		<Bunnies_CarrotTree>1.6</Bunnies_CarrotTree>
+		<Bunnies_CarrotTree>1.1</Bunnies_CarrotTree>
+		<Bunnies_WhiteCarrotTree>1.1</Bunnies_WhiteCarrotTree>
 		<Bunnies_CarrotPlant>0.5</Bunnies_CarrotPlant>
 		<Bunnies_HealleafWild>0.05</Bunnies_HealleafWild>
     </wildPlants>
