@@ -122,19 +122,14 @@
       <SnowHard>4</SnowHard>
     </baseWeatherCommonalities>
     <wildPlants>
-	
-<!-- to be replaced -->
 		<Plant_Grass>5.0</Plant_Grass>
 		<Plant_TallGrass>2.0</Plant_TallGrass>
-		
 		<Plant_Brambles>1.0</Plant_Brambles>
 		<Plant_Dandelion>0.5</Plant_Dandelion>
 		<Plant_Bush>0.6</Plant_Bush>
 		
 		<Bunnies_CarrotTree>1.6</Bunnies_CarrotTree>
-		
 		<Bunnies_CarrotPlant>0.5</Bunnies_CarrotPlant>
-		
 		<Bunnies_HealleafWild>0.05</Bunnies_HealleafWild>
     </wildPlants>
 	
@@ -142,55 +137,16 @@
 		<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
 		<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
 		<Bunnies_ChocolateRabbit>0.05</Bunnies_ChocolateRabbit>
-		
 		<Bunnies_HoptimusPrime>0.25</Bunnies_HoptimusPrime>
-		<!-- <Megasloth>0.2</Megasloth> -->
-		<!-- <Rhinoceros>0.1</Rhinoceros> -->
-		
 		<Hare>2.45</Hare>
-		<!-- <Hare>1.0</Hare> -->
-		<!-- <Rat>1.0</Rat> -->
-		<!-- <GuineaPig>0.45</GuineaPig> -->
-		
 		<Bunnies_Microbunny>2.2</Bunnies_Microbunny>
-		<!-- <Squirrel>1.0</Squirrel> -->
-		<!-- <Raccoon>0.5</Raccoon> -->
-		<!-- <Boomrat>0.4</Boomrat> -->
-		<!-- <Tortoise>0.3</Tortoise> -->
-		
 		<Bunnies_Rabbuck>1.3</Bunnies_Rabbuck>
-		<!-- <Gazelle>0.3</Gazelle> -->
-		<!-- <Deer>0.5</Deer> -->
-		<!-- <Turkey>0.5</Turkey> -->
-		
 		<Bunnies_EmpireRabbit>0.6</Bunnies_EmpireRabbit>
-		<!-- <Yak>0.06</Yak> -->
-		<!-- <Bison>0.07</Bison> -->
-		<!-- <Muffalo>0.5</Muffalo> -->
-				
 		<Bunnies_Jackalope>1.0</Bunnies_Jackalope>
-		<!-- <WildBoar>0.5</WildBoar> -->
-		<!-- <Ibex>0.5</Ibex> -->
-		
 		<Bunnies_BunFox>0.1</Bunnies_BunFox>
-		<!-- <Fox_Red>0.07</Fox_Red> -->
-		
 		<Bunnies_Wolpertinger>0.3</Bunnies_Wolpertinger>
-		<!-- <Bear_Grizzly>0.07</Bear_Grizzly> -->
-		<!-- <Wolf_Timber>0.07</Wolf_Timber> -->
-		<!-- <Cougar>0.07</Cougar> -->
-		<!-- <Lynx>0.07</Lynx> -->
-		<!-- <Warg>0.07</Warg> -->
-		
-		
-<!-- to be replaced -->
-		
 		<Bunnies_Donkit>0.40</Bunnies_Donkit>
-		
-
-		<Boomalope>0.4</Boomalope>
-		
-		
+		<!-- <Boomalope>0.4</Boomalope> -->
 		
     </wildAnimals>
     <allowedPackAnimals>
