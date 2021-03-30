@@ -167,52 +167,12 @@
 		</value>
 	</Operation>
 	
-	<!--
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers</xpath>
-		<value>
-			<li>
-				<kindDef>Trader</kindDef>
-				<traders>
-				  <Town_Trader>1</Town_Trader>
-				</traders>
-				<carriers>
-				  <Bunnies_EmpireRabbit>6</Bunnies_EmpireRabbit>
-				  <Bunnies_HoptimusPrime>5</Bunnies_HoptimusPrime>
-				</carriers>
-				<guards>
-				  <Villager>3</Villager>
-				  <Town_Guard>10</Town_Guard>
-				  <Grenadier_Destructive>1.5</Grenadier_Destructive>
-				  <Mercenary_Slasher>7</Mercenary_Slasher>
-				  <Mercenary_Gunner>10</Mercenary_Gunner>
-				  <Mercenary_Elite>10</Mercenary_Elite>
-				</guards>
-			</li>
-		</value>
-	</Operation>
+	<!-- Events -->
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers</xpath>
+		<xpath>Defs/IncidentDef[defName = "AmbrosiaSprout"]/allowedBiomes</xpath>
 		<value>
-			<li>
-				<kindDef>Trader</kindDef>
-				<traders>
-				  <Tribal_Trader>1</Tribal_Trader>
-				</traders>
-				<carriers>
-				  <Bunnies_EmpireRabbit>6</Bunnies_EmpireRabbit>
-				  <Bunnies_HoptimusPrime>5</Bunnies_HoptimusPrime>
-				</carriers>
-				<guards>
-				  <Tribal_Warrior>7</Tribal_Warrior>
-				  <Tribal_Archer>10</Tribal_Archer>
-				  <Tribal_Hunter>10</Tribal_Hunter>
-				  <Tribal_HeavyArcher>10</Tribal_HeavyArcher>
-				  <Tribal_Berserker>7</Tribal_Berserker>
-				</guards>
-			  </li>
+			<li>Bunnies_Carrotopia</li>
 		</value>
 	</Operation>
-	-->
 </Patch>
