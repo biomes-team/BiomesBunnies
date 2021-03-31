@@ -87,19 +87,33 @@
 		</plant>
   </ThingDef>
 
-  <ThingDef ParentName="HealrootBase">
+  <ThingDef ParentName="PlantBase">
 		<defName>Bunnies_HealleafWild</defName>
 		<label>healleaf</label>
 		<description>A slow-growing Plant which yields herbal medicine when harvested.\n\nHealleaf is hardier than domesticated healroot, but too difficult to cultivate.</description>
+		<statBases>
+			  <MaxHitPoints>60</MaxHitPoints>
+			  <Nutrition>0.15</Nutrition>
+		</statBases>
 		<graphicData>
 			  <texPath>Bunnies/Plants/Healleaf/Healleaf</texPath>
 			  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>14</pathCost>
+		<ingestible />
 		<plant>
 			  <visualSizeRange>0.7~1.5</visualSizeRange>
 			  <wildClusterRadius>4</wildClusterRadius>
 			  <wildClusterWeight>80</wildClusterWeight>
+			  <growDays>10</growDays>
+			  <dieIfLeafless>false</dieIfLeafless>
+			  <harvestWork>400</harvestWork>
+			  <harvestTag>Standard</harvestTag>
+			  <harvestedThingDef>MedicineHerbal</harvestedThingDef>
+			  <harvestYield>1</harvestYield>
+			  <topWindExposure>0.1</topWindExposure>
+			  <wildOrder>2</wildOrder>
 		</plant>
   </ThingDef>
-
 </Defs>
