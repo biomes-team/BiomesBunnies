@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Biome Expansion: Redwood forest</li>
+			<li>Biomes! Oasis</li>
 		</mods>
 <!-- like boreal forest -->
 		<match Class="PatchOperationSequence">
