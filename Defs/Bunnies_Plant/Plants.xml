@@ -62,7 +62,7 @@
 			  <growDays>30</growDays>
 			  <harvestWork>1400</harvestWork>
 			  <harvestYield>46</harvestYield>
-			  <wildClusterWeight>35</wildClusterWeight>
+			  <wildClusterWeight>15</wildClusterWeight>
 		</plant>
   </ThingDef>
   
