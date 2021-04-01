@@ -6,6 +6,7 @@
   <TraderKindDef>
     <defName>Bunnies_BunnyTrader</defName>
     <label>bunny trader</label>
+	<commonality>0.3</commonality>
     <stockGenerators>
       
       <!-- Resources -->
