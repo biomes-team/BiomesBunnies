@@ -20,14 +20,13 @@
 		</graphicData>
 		<selectable>true</selectable>
 		<neverMultiSelect>false</neverMultiSelect>
-		<fillPercent>0.20</fillPercent>
-		<pathCost>30</pathCost>
+		<pathCost>10</pathCost>
 		<plant>
 		<fertilityMin>0.5</fertilityMin>
-		<fertilitySensitivity>0.5</fertilitySensitivity>
-		<growDays>8</growDays>
+		<fertilitySensitivity>0.25</fertilitySensitivity>
+		<growDays>7</growDays>
 		<immatureGraphicPath>Bunnies/Plants/CarrotPlant/CarrotPlant_Immature</immatureGraphicPath>
-		<harvestYield>5</harvestYield>
+		<harvestYield>6</harvestYield>
 		<harvestWork>250</harvestWork>
 		<harvestTag>Standard</harvestTag>
 		<harvestedThingDef>Bunnies_Carrots</harvestedThingDef>
