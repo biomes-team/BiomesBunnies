@@ -5,7 +5,7 @@
   <ThingDef ParentName="PlantBase">
 		<defName>Bunnies_CarrotPlant</defName>
 		<label>carrot</label>
-		<description>A sweet root vegetable favored by all types of bunnies.</description>
+		<description>A sweet cold-resistant root vegetable favored by all types of bunnies.</description>
 		<statBases>
 			  <MaxHitPoints>120</MaxHitPoints>
 			  <Nutrition>0.35</Nutrition>
@@ -90,7 +90,7 @@
   <ThingDef ParentName="PlantBase">
 		<defName>Bunnies_HealleafWild</defName>
 		<label>healleaf</label>
-		<description>A slow-growing Plant which yields herbal medicine when harvested.\n\nHealleaf is hardier than domesticated healroot, but too difficult to cultivate.</description>
+		<description>A strange, medicinal lettuce. It's slow growing and has low nutritional content, but can be used to treat any number of diseases\n\nHealleaf is hardier than healroot, but too difficult to cultivate.</description>
 		<statBases>
 			  <MaxHitPoints>60</MaxHitPoints>
 			  <Nutrition>0.15</Nutrition>
