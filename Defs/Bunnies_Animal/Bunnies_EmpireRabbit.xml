@@ -63,7 +63,7 @@
    <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>true</herdAnimal>
-      <trainability>Simple</trainability>
+      <trainability>Intermediate</trainability>
       <packAnimal>true</packAnimal>
       <baseBodySize>2.0</baseBodySize>
       <baseHungerRate>1.7</baseHungerRate>

@@ -50,7 +50,7 @@
       <leatherDef>Leather_Heavy</leatherDef>
       <useMeatFrom>Hare</useMeatFrom>
       <wildness>0.40</wildness>
-      <trainability>Simple</trainability>
+      <trainability>None</trainability>
       <gestationPeriodDays>19</gestationPeriodDays>
       <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0</manhunterOnDamageChance>
