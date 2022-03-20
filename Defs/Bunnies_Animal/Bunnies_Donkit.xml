@@ -98,7 +98,7 @@
     </tradeTags>
   </ThingDef>
   
-  <PawnKindDef Name="Donkey" ParentName="AnimalKindBase">
+  <PawnKindDef ParentName="AnimalKindBase">
     <defName>Bunnies_Donkit</defName>
     <label>donkit</label>
     <race>Bunnies_Donkit</race>
