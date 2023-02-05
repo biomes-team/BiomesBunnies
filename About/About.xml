@@ -28,22 +28,26 @@
 		<li>BiomesTeam.BiomesCore</li>
 		<li>Odeum.BiomesKit</li>
 	</loadAfter>
-  <description>Realize your most fervent desire to become the king of carrots in this wondrous biome!
-  
-  But beware! There are rivals to your throne! And those rivals are bunnies!
-  They seek to steal YOUR carrots for themselves! What greed!
-  Guard your carrot hoard jealously, or you shall surely lose it.
-  
-  You may meet a brave trader who specializes in the live capture and enslavement of bunnies.
-  Give him your praise and your coin, and you shall prosper.
-  
-  Fleeing in no escape, as the bunnies will follow you into other biomes!
-  Even modded biomes are no escape, as the dread bunnies will spawn in biomes from these mods:
+  <description>Adds a complete bunny-themed biome.
 
-Advanced Biomes
-Alpha Biomes
-Biome Expansion: Redwood Forest
-Biomes Islands
-More Vanilla Biomes
-Realistic Planets</description>
+Realize your most fervent desire to become the king of carrots in this wondrous biome!
+  
+But beware! There are rivals to your throne! And those rivals are bunnies! They seek to steal YOUR carrots for themselves! What greed! Guard your carrot hoard jealously, or you shall surely lose it.
+
+You may meet a brave trader who specializes in the live capture and enslavement of bunnies. Give him your praise and your coin, and you shall prosper.
+
+Fleeing is no escape, as the bunnies will follow you into other biomes! Even modded biomes are no escape, as the dread bunnies will spawn in biomes from these mods:
+- Advanced Biomes
+- Alpha Biomes
+- Biome Expansion: Redwood Forest
+- Biomes Islands
+- More Vanilla Biomes
+- Realistic Planets
+
+--- 
+
+Requires Harmony.
+Requires either Biomes! Core or BiomesKit.
+
+</description>
 </ModMetaData>
