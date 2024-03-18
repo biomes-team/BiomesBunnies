@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>PokéWorld</li>
+		</mods>
+<!-- like boreal forest -->
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="Bunnies_Carrotopia"]/wildAnimals</xpath>
+					<value>
+						<PW_Azumarill>0.0156</PW_Azumarill>
+						<PW_Buneary>0.5000</PW_Buneary>
+						<PW_Lopunny>0.0625</PW_Lopunny>
+						<PW_Plusle>0.2500</PW_Plusle>
+						<PW_Minun>0.2500</PW_Minun>
+						<PW_Nidorina>0.0625</PW_Nidorina>
+						<PW_Nidorino>0.0625</PW_Nidorino>
+
+					</value>
+				</li>
+					
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

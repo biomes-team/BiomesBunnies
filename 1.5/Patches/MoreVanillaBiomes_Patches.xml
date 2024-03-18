@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>More Vanilla Biomes</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+			<!-- friendly boreal forest -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_AlpineMeadow"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_ChocolateRabbit>0.15</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.08</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+						<Bunnies_EmpireRabbit>0.1</Bunnies_EmpireRabbit>
+						<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+					</value>
+				</li>
+				
+			<!-- hot-warm sandy and wet -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_CoastalDunes"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_ChocolateRabbit>0.10</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.02</Bunnies_HoptimusPrime>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.2</Bunnies_Microbunny>
+					</value>
+				</li>
+				
+			<!-- lush oasis -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_DesertOasis"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_ChocolateRabbit>0.08</Bunnies_ChocolateRabbit>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.2</Bunnies_Microbunny>
+						<Bunnies_EmpireRabbit>0.05</Bunnies_EmpireRabbit>
+					</value>
+				</li>
+				
+			<!-- warm-hot grasslands -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_Grasslands"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_DustBunny>0.1</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+					</value>
+				</li>
+				
+			<!-- sea ice -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_Iceberg_NoBeach"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_Caerbunny>0.2</Bunnies_Caerbunny>
+						<Bunnies_DustBunny>0.1</Bunnies_DustBunny>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
+					</value>
+				</li>
+				
+			<!-- cold bog -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_Marsh"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_ChocolateRabbit>0.05</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.2</Bunnies_HoptimusPrime>
+						<Bunnies_EmpireRabbit>0.2</Bunnies_EmpireRabbit>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+					</value>
+				</li>
+				
+			<!-- wet temperate-tropical -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_CloudForest"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+					</value>
+				</li>
+				
+			<!-- extreme desert -->
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="ZBiome_Sandbar_NoBeach"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_Hoptimus>0.2</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
