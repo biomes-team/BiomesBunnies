@@ -11,14 +11,7 @@
       <MarketValue>350</MarketValue>
       <ComfyTemperatureMin>-35</ComfyTemperatureMin>
     </statBases>
-	 <!-- <colorGenerator Class="ColorGenerator_Options"> -->
-      <!-- <options> -->
-        <!-- <li> -->
-          <!-- <min>(0.46,0.33,0.29,1)</min> -->
-          <!-- <max>(0.19,0.19,0.19,1)</max> -->
-        <!-- </li> -->
-      <!-- </options> -->
-    <!-- </colorGenerator> -->
+
 	<comps>
 		<li Class="CompProperties_Milkable">
 			<milkDef>Milk</milkDef>
@@ -118,8 +111,23 @@
     <race>Bunnies_HoptimusPrime</race>
     <combatPower>250</combatPower>
     <ecoSystemWeight>1.8</ecoSystemWeight>
-    <alternateGraphicChance>0.5</alternateGraphicChance>
-   
+    <alternateGraphicChance>0.7</alternateGraphicChance>
+   <alternateGraphics>
+      <li>
+          <color>(84,65,56)</color>
+      </li>
+      <li>
+          <color>(89,78,74)</color>
+      </li>
+      <li>
+          <color>(97,91,88)</color>
+      </li>
+      <li>
+          <color>(57,53,51)</color>
+      </li>
+
+	  
+    </alternateGraphics>
     <lifeStages>
       <li>
         <bodyGraphicData>
