@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Bunnies_HoptimusPrime</defName>
+    <label>hoptimus prime</label>
+    <description>Hoptimus Prime is the primary bunny species in this location. You can't deny it's superiority.</description>
+    <statBases>
+      <MoveSpeed>6.6</MoveSpeed>
+      <MarketValue>350</MarketValue>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <Wildness>0.90</Wildness>
+    </statBases>
+
+	<comps>
+		<li Class="CompProperties_Milkable">
+			<milkDef>Milk</milkDef>
+			<milkIntervalDays>2</milkIntervalDays>
+			<milkAmount>26</milkAmount>
+		</li>
+	</comps>
+
+	<tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+	
+   <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <herdAnimal>false</herdAnimal>
+      <baseBodySize>3.3</baseBodySize>
+      <baseHungerRate>1.6</baseHungerRate>
+      <baseHealthScale>3.6</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+      <useMeatFrom>Hare</useMeatFrom>
+      <trainability>Intermediate</trainability>
+      <packAnimal>true</packAnimal>
+      <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
+      <gestationPeriodDays>36</gestationPeriodDays>
+      <lifeExpectancy>16</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.8</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.5</minAge>
+          <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+          <soundDeath>Pawn_Muffalo_Death</soundDeath>
+          <soundCall>Pawn_Muffalo_Call</soundCall>
+          <soundAngry>Pawn_Muffalo_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalFighter</li>
+	  <li>Bunnies_TradeTag</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Bunnies_HoptimusPrime</defName>
+    <label>hoptimus prime</label>
+    <race>Bunnies_HoptimusPrime</race>
+    <combatPower>250</combatPower>
+    <ecoSystemWeight>1.8</ecoSystemWeight>
+    <alternateGraphicChance>0.7</alternateGraphicChance>
+   <alternateGraphics>
+      <li>
+          <color>(84,65,56)</color>
+      </li>
+      <li>
+          <color>(89,78,74)</color>
+      </li>
+      <li>
+          <color>(97,91,88)</color>
+      </li>
+      <li>
+          <color>(57,53,51)</color>
+      </li>
+
+	  
+    </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Bunnies/Animal/HoptimusPrime/HoptimusPrime</texPath>
+          <color>(115,82,71)</color>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomalope/Dessicated_Boomalope</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Bunnies/Animal/HoptimusPrime/HoptimusPrime</texPath>
+          <color>(115,82,71)</color>
+          <drawSize>2.4</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomalope/Dessicated_Boomalope</texPath>
+          <drawSize>2.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Bunnies/Animal/HoptimusPrime/HoptimusPrime</texPath>
+          <color>(115,82,71)</color>
+          <drawSize>3.4</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomalope/Dessicated_Boomalope</texPath>
+          <drawSize>3.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+</Defs>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biomes Islands</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_Atoll"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_Hoptimus>0.03</Bunnies_Hoptimus>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_BorealIsland"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_ChocolateRabbit>0.08</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.3</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.08</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+						<Bunnies_EmpireRabbit>0.1</Bunnies_EmpireRabbit>
+						<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_DesertIsland"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+						<Bunnies_Rabbuck>0.05</Bunnies_Rabbuck>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TemperateIsland"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_ChocolateRabbit>0.05</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.02</Bunnies_HoptimusPrime>
+						<Bunnies_EmpireRabbit>0.2</Bunnies_EmpireRabbit>
+						<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.2</Bunnies_Microbunny>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TropicalIsland"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_ChocolateRabbit>0.05</Bunnies_ChocolateRabbit>
+						<Bunnies_Hoptimus>0.15</Bunnies_Hoptimus>
+						<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>Defs/BiomeDef[defName="BiomesIslands_TundraIsland"]/wildAnimals</xpath>
+					<value>
+						<Bunnies_ChocolateRabbit>0.07</Bunnies_ChocolateRabbit>
+						<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
+						<Bunnies_Hoptimus>0.05</Bunnies_Hoptimus>
+						<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
+						<Bunnies_EmpireRabbit>0.2</Bunnies_EmpireRabbit>
+						<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+						<Bunnies_Microbunny>0.02</Bunnies_Microbunny>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

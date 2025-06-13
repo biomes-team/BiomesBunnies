@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="PlantBase">
+		<defName>Bunnies_CarrotPlant</defName>
+		<label>carrot</label>
+		<description>A sweet cold-resistant root vegetable favored by all types of bunnies.</description>
+		<statBases>
+			  <MaxHitPoints>120</MaxHitPoints>
+			  <Nutrition>0.35</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Bunnies/Plants/CarrotPlant/CarrotPlant_Mature</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			  <!-- <shadowData> -->
+					<!-- <volume>(0.2, 0.35, 0.13)</volume> -->
+					<!-- <offset>(0,0,-0.42)</offset> -->
+			  <!-- </shadowData> -->
+		</graphicData>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<pathCost>10</pathCost>
+		<plant>
+		<fertilityMin>0.5</fertilityMin>
+		<fertilitySensitivity>0.25</fertilitySensitivity>
+		<growDays>7</growDays>
+		<immatureGraphicPath>Bunnies/Plants/CarrotPlant/CarrotPlant_Immature</immatureGraphicPath>
+		<harvestYield>6</harvestYield>
+		<harvestWork>250</harvestWork>
+		<harvestTag>Standard</harvestTag>
+		<harvestedThingDef>Bunnies_Carrots</harvestedThingDef>
+		<wildClusterRadius>5</wildClusterRadius>
+		<wildClusterWeight>250</wildClusterWeight>
+		<visualSizeRange>0.7~1.2</visualSizeRange>
+		<maxMeshCount>4</maxMeshCount>
+		<topWindExposure>0.3</topWindExposure>
+		<wildOrder>2</wildOrder>
+		<purpose>Food</purpose>
+		<sowTags>
+			<li>Ground</li>
+		</sowTags>
+		<mustBeWildToSow>true</mustBeWildToSow>
+		</plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="TreeBase">
+		<defName>Bunnies_OakotTree</defName>
+		<label>oakot</label>
+		<description>A thick woody carrot that grows slowly but is as strong as an oak.</description>
+		<graphicData>
+			  <texPath>Bunnies/Plants/CarrotTree/CarrotTree</texPath>
+			  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			  <Beauty>1</Beauty>
+			  <Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible />
+		<plant>
+			  <growDays>30</growDays>
+			  <harvestWork>1400</harvestWork>
+			  <harvestYield>46</harvestYield>
+			  <wildClusterWeight>15</wildClusterWeight>
+		</plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="TreeBase">
+		<defName>Bunnies_PaleCarrotTree</defName>
+		<label>pale carrot</label>
+		<description>A woody carrot that grows very fast. Unfortunately, its wood is weak and so it yields less useful material than oakots.</description>
+		<graphicData>
+			  <texPath>Bunnies/Plants/WhiteCarrotTree/WhiteCarrotTree</texPath>
+			  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			  <Beauty>1</Beauty>
+			  <Nutrition>1</Nutrition>
+		</statBases>
+		<ingestible />
+		<plant>
+			  <growDays>15.05</growDays>
+			  <harvestWork>800</harvestWork>
+			  <harvestYield>27</harvestYield>
+			  <wildClusterWeight>35</wildClusterWeight>
+		</plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+		<defName>Bunnies_HealleafWild</defName>
+		<label>healleaf</label>
+		<description>A strange, medicinal lettuce. It's slow growing and has low nutritional content, but can be used to treat any number of diseases\n\nHealleaf is hardier than healroot, but too difficult to cultivate.</description>
+		<statBases>
+			  <MaxHitPoints>60</MaxHitPoints>
+			  <Nutrition>0.15</Nutrition>
+		</statBases>
+		<graphicData>
+			  <texPath>Bunnies/Plants/Healleaf/Healleaf</texPath>
+			  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<pathCost>14</pathCost>
+		<ingestible />
+		<plant>
+			  <visualSizeRange>0.7~1.5</visualSizeRange>
+			  <wildClusterRadius>4</wildClusterRadius>
+			  <wildClusterWeight>80</wildClusterWeight>
+			  <growDays>10</growDays>
+			  <dieIfLeafless>false</dieIfLeafless>
+			  <harvestWork>400</harvestWork>
+			  <harvestTag>Standard</harvestTag>
+			  <harvestedThingDef>MedicineHerbal</harvestedThingDef>
+			  <harvestYield>1</harvestYield>
+			  <topWindExposure>0.1</topWindExposure>
+			  <wildOrder>2</wildOrder>
+		</plant>
+  </ThingDef>
+</Defs>

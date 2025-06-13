@@ -11,7 +11,7 @@ namespace BiomesBunnies
 {
 	public class BiomeWorker_Carrotopia : BiomeWorker
 	{
-		public override float GetScore(Tile tile, int tileID)
+		public override float GetScore(BiomeDef biome, Tile tile, PlanetTile planetTile)
 		{
 			if (tile.WaterCovered)
 			{
