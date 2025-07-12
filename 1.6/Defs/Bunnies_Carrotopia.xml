@@ -30,7 +30,7 @@
     <movementDifficulty>1</movementDifficulty>
     <texture>Bunnies/World/Carrotopia</texture>
     <forageability>1</forageability>
-    <foragedFood>RawBerries</foragedFood>
+    <foragedFood>Bunnies_Carrots</foragedFood>
     <wildPlantRegrowDays>20</wildPlantRegrowDays>
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
