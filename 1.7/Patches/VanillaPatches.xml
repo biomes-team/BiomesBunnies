@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Add chocolate eggs to the "eat chocolate" joygiver -->
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/JoyGiverDef[defName="EatChocolate"]/thingDefs</xpath>
+		<value>
+			<li>Bunnies_ChocolateEgg</li>
+		</value>
+	</Operation>
+	
+	
+	
+	<!--
+	Add bunnies to vanilla biomes: 
+	Bunnies_Caerbunny
+	Bunnies_ChocolateRabbit
+	Bunnies_DustBunny
+	Bunnies_Hoptimus
+	Bunnies_HoptimusPrime
+	Bunnies_EmpireRabbit
+	Bunnies_Rabbuck
+	Bunnies_Microbunny
+	-->
+	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_ChocolateRabbit>0.05</Bunnies_ChocolateRabbit>
+			<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+			<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+			<Bunnies_HoptimusPrime>0.02</Bunnies_HoptimusPrime>
+			<Bunnies_EmpireRabbit>0.2</Bunnies_EmpireRabbit>
+			<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+			<Bunnies_Microbunny>0.2</Bunnies_Microbunny>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_ChocolateRabbit>0.04</Bunnies_ChocolateRabbit>
+			<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+			<Bunnies_Hoptimus>0.08</Bunnies_Hoptimus>
+			<Bunnies_HoptimusPrime>0.06</Bunnies_HoptimusPrime>
+			<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+			<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_Hoptimus>0.15</Bunnies_Hoptimus>
+			<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_Hoptimus>0.05</Bunnies_Hoptimus>
+			<Bunnies_HoptimusPrime>0.01</Bunnies_HoptimusPrime>
+			<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_Hoptimus>0.05</Bunnies_Hoptimus>
+			<Bunnies_Rabbuck>0.05</Bunnies_Rabbuck>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_Hoptimus>0.05</Bunnies_Hoptimus>
+			<Bunnies_HoptimusPrime>0.02</Bunnies_HoptimusPrime>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_Hoptimus>0.1</Bunnies_Hoptimus>
+			<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_ChocolateRabbit>0.08</Bunnies_ChocolateRabbit>
+			<Bunnies_DustBunny>0.3</Bunnies_DustBunny>
+			<Bunnies_Hoptimus>0.08</Bunnies_Hoptimus>
+			<Bunnies_HoptimusPrime>0.05</Bunnies_HoptimusPrime>
+			<Bunnies_EmpireRabbit>0.1</Bunnies_EmpireRabbit>
+			<Bunnies_Rabbuck>0.2</Bunnies_Rabbuck>
+			<Bunnies_Microbunny>0.1</Bunnies_Microbunny>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_ChocolateRabbit>0.03</Bunnies_ChocolateRabbit>
+			<Bunnies_DustBunny>0.4</Bunnies_DustBunny>
+			<Bunnies_Hoptimus>0.05</Bunnies_Hoptimus>
+			<Bunnies_HoptimusPrime>0.1</Bunnies_HoptimusPrime>
+			<Bunnies_EmpireRabbit>0.2</Bunnies_EmpireRabbit>
+			<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+			<Bunnies_Microbunny>0.02</Bunnies_Microbunny>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_ChocolateRabbit>0.03</Bunnies_ChocolateRabbit>
+			<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+			<Bunnies_Hoptimus>0.02</Bunnies_Hoptimus>
+			<Bunnies_HoptimusPrime>0.15</Bunnies_HoptimusPrime>
+			<Bunnies_EmpireRabbit>0.2</Bunnies_EmpireRabbit>
+			<Bunnies_Rabbuck>0.1</Bunnies_Rabbuck>
+			<Bunnies_Microbunny>0.02</Bunnies_Microbunny>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_Caerbunny>0.1</Bunnies_Caerbunny>
+			<Bunnies_DustBunny>0.2</Bunnies_DustBunny>
+			<Bunnies_HoptimusPrime>0.2</Bunnies_HoptimusPrime>
+			<Bunnies_EmpireRabbit>0.1</Bunnies_EmpireRabbit>
+			<Bunnies_Microbunny>0.01</Bunnies_Microbunny>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
+		<value>
+			<Bunnies_Caerbunny>0.3</Bunnies_Caerbunny>
+			<Bunnies_DustBunny>0.05</Bunnies_DustBunny>
+			<Bunnies_HoptimusPrime>0.15</Bunnies_HoptimusPrime>
+		</value>
+	</Operation>
+		
+		
+		
+	<!-- add bunny traders -->
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="TribeBase"]/caravanTraderKinds</xpath>
+		<value>
+			<li>Bunnies_BunnyTrader</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+		<value>
+			<li>Bunnies_BunnyTrader</li>
+		</value>
+	</Operation>
+	
+	<!-- Events -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/IncidentDef[defName = "AmbrosiaSprout"]/allowedBiomes</xpath>
+		<value>
+			<li>Bunnies_Carrotopia</li>
+		</value>
+	</Operation>
+</Patch>
